@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Custom Gym Palette Colors */
+@layer base {
+  :root {
+    --gym-dark-blue: #2B6B88;
+    --gym-sky-blue: #61B0D0;
+    --gym-light-bg: #E8ECEF;
+    --gym-orange: #F06A32;
+    --gym-rust: #964B31;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
